@@ -1,9 +1,14 @@
 body {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 p {
     font-size: 20px;
+}
+
+a.resume:hover{
+    text-decoration: none;
+    text-decoration-line: none;
 }
 
 .navbar {
