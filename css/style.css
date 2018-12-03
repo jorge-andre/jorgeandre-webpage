@@ -48,6 +48,11 @@ a.resume:hover{
     padding-top: 50px;
 }
 
+input{
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
 #magic-line {
     position: absolute;
     bottom: 0;
