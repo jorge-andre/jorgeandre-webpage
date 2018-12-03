@@ -47,17 +47,3 @@ a.resume:hover{
 #contact {
     padding-top: 50px;
 }
-
-input{
-    margin-top: 1px;
-    margin-bottom: 5px;
-}
-
-#magic-line {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100px;
-    height: 4px;
-    background: #d5d5d5;
-}
