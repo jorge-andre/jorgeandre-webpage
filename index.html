@@ -14,31 +14,29 @@
     <!-- Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     
-    <script src="js/magicline.js"></script>
     <script src="js/script.js"></script>
 </head>
 
-<body>
-    
+<body  id="top">
     <nav class="navbar navbar-dark navbar-expand-md fixed-top">
         <div class="container-fluid">
             
-            <a class="navbar-brand" href="#">Jorge André</a>
+            <a class="navbar-brand" href="#top">Jorge André</a>
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav ml-auto flex-nowrap">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Who</a>
+                <ul class="nav navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#who">Who</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Resume</a>
+                        <a class="nav-link" href="#resume">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                         
                     </li>
                 </ul>
@@ -52,6 +50,7 @@
                 <img src="images/placeholder.jpg" class="img-thumbnail rounded mx-auto d-block">
             </div>
         </div> -->
+        <div id="who">
         <div class="row welcome text-center padding">
             <div class="col">
                 <p class="h1 display-3">Hi, I'm Jorge André</p>
@@ -71,7 +70,7 @@
         
         <div class="row who text-center padding">
             <div class="col">
-                <p class="h2 display-4">Who</p>
+                <p class="h2 display-4" >Who</p>
             </div>
         </div>
         
@@ -87,27 +86,31 @@
                     I also enjoy a good break and am a firm believer that the best way to relax is with a good, fun, 
                     hardcore game. If I'm at home and not studying or coding, I'll probably be battling it out on 
                     Summoner's Rift or struggling at Undead Parish.</p>
-                </div>
             </div>
+        </div>
+        </div>
             
             <hr class="my-4">
             
+            <div id="resume">
             <div class="row resume-title text-center padding">
                 <div class="col">
-                    <p class="h2 display-4">Resume</p>
+                    <p class="h2 display-4" >Resume</p>
                 </div>
             </div>
             <div class="row resume text-center my-3">
                 <div class="col">
-                    <a href="documents/Jorge-Andre-resume.pdf" target="_blank" rel="noopener noreferrer" class="resume"><i class="fas fa-file-alt fa-5x btn btn-secondary rounded-circle"></i><br><p class="text-dark">Click me!</p></a>
+                    <a href="documents/Jorge-Andre-resume.pdf" target="_blank" rel="noopener noreferrer" class="resume"><i class="fas fa-file-alt fa-5x btn btn-secondary rounded-circle"></i><br><p id="click" class="text-dark">Click me!</p></a>
                 </div>
             </div>
-            
+        </div>
+
             <hr class="my-4">
             
+            <div id="contact">
             <div class="row contact-title text-center padding">
                 <div class="col">
-                    <p class="h2 display-4">Contact me!</p>
+                    <p class="h2 display-4" >Contact me!</p>
                 </div>
             </div>
             <div class="row contact padding my-3 align-items-center justify-content-center">
@@ -138,6 +141,8 @@
                         </div>
                     </form>
             </div>
+
+        </div>
             
         </div>
         
