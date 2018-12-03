@@ -120,13 +120,13 @@
                         <div class="form-group">
                             <label>Your name</label>
                             <div class="input-group">
-                                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Name">
+                                <input type="text" name="name" class="form-control" id="inlineFormInputGroupUsername" placeholder="Name">
                             </div>
                         </div>
                         <div class="form-group">
                             <label>Your email</label>
                             <div class="input-group">
-                                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="name@email.com">
+                                <input type="email" name="_replyto" class="form-control" id="inlineFormInputGroupUsername" placeholder="name@email.com">
                             </div>
                         </div>
                         <div class="form-group">
@@ -136,8 +136,11 @@
                             </div>
                         </div>
 
-                        <div class="text-center">
-                            <button class="btn btn-primary btn-block rounded-0 py-2">Submit</button>
+                        <input type="hidden" name="_subject" value="jorgeandre.com contact">
+                        <input type="text" name="_gotcha" style="display:none" />
+
+                        <div class="text-center">                           
+                            <input class="btn btn-primary btn-block rounded-0 py-2" type="submit" value="Submit">
                         </div>
                     </form>
             </div>
