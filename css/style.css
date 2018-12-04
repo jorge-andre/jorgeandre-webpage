@@ -16,6 +16,10 @@ a.resume:hover{
     text-decoration-line: none;
 }
 
+.welcome {
+    padding-bottom: 70px;
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
