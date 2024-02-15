@@ -12,6 +12,9 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <!-- Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -45,7 +48,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid justify-content-center ps-4 pe-4">
+    <div class="container-fluid justify-content-center ps-4 pe-4 w-75 mx-auto">
         <!-- <div class="row photo padding">
             <div class="col">
                 <img src="images/placeholder.jpg" class="img-thumbnail rounded mx-auto d-block">
@@ -72,22 +75,26 @@
                 </div>
             </div>
 
-            <hr class="my-4">
+            <hr class="my-5">
 
             <div class="row who text-center">
                 <div class="col">
-                    <p class="h2 display-4">Who</p>
+                    <p class="h2 display-4 mb-5">Who</p>
                 </div>
             </div>
 
-            <div class="row description w-75 mx-auto">
+            <div class="row description">
                 <div class="col desc">
-                    <p>I'm a Software Engineer with a Bachelors in Computer Science from the University of Lisbon, and in 2021 I moved to Copenhagen and
+                    <p> 
+                        I'm a Software Engineer with a Bachelors in Computer Science from the University of Lisbon, and in 2021 I moved to Copenhagen and
                         enrolled in a Masters of Computer Science at Københavns Universitet from which I am currently taking a break. At university I've 
                         gained an interest in Distributed Systems and Human-Centered Computing, and I've developed projects in Wearable Technology and 
-                        research projects on the LGBTQ+ community online, and on ethical challenges when developing a tech startup.<br> Professionally I 
-                        have focused mainly on backend web development with software architecture and design patterns being my main area of interest. I'm 
-                        also in my zone when dealing with event-driven architectures, message brokers, microservices and asynchronous systems.<br>
+                        research projects on the LGBTQ+ community online, and on ethical challenges when developing a tech startup.</p>
+                    <p> 
+                        Professionally I have focused mainly on backend web development with software architecture and design patterns being my main area 
+                        of interest. I'm also in my zone when dealing with event-driven architectures, message brokers, microservices and asynchronous systems.
+                    </p>
+                    <p> 
                         I'm also always on the lookout for fun, sometimes silly, side projects to work on, either to learn some new technology or 
                         add a little bit of flair to my life. I've just started B-Bots, my collection of small and mostly useless trinkets and software
                         applications, which I will be showcasing in this website.
@@ -96,37 +103,109 @@
             </div>
         </div>
 
-        <hr class="my-4">
+        <hr class="my-5">
 
         <div id="resume">
             <div class="row resume-title text-center">
                 <div class="col">
-                    <p class="h2 display-4">Resume</p>
+                    <p class="h2 display-4 mb-5">Resume</p>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-md">
+                    <p class="h3">Work Experience</p>
+                    <p class="h5 mb-0">Associate Software Engineer</p>
+                    <p class="mb-0">Junu.io - 2021 to 2023</p>
+                    <ul>
+                        <li>
+                            During my studies, worked on the development of a SaaS Business Analytics Tool leveraging insights that companies could act on, 
+                            built on ASP.NET MVC.
+                        </li>
+                        <li><strong>Main skills:</strong> C#/.NET, ASP.NET MVC, Microsoft Azure Cloud development, REST API design/development and integration, 
+                            Clean Architecture, Microservices, SQL Server, Unit testing.
+                        </li>
+                    </ul>
+
+                    <p class="h5 mb-0">Junior Software Engineer</p>
+                    <p class="mb-0">Farfetch - 2020 to 2021</p>
+                    <ul>
+                        <li>
+                            Was part of the Store of the Future team, where I delivered solutions to bring technology to brick-and-mortar fashion 
+                            boutiques and integrate the client- and store-assistant-experience with the Farfetch e-commerce platform.
+                        </li>
+                        <li>
+                            <strong>Main skills:</strong> C#/.NET, ASP.NET, Event-Driven Architecture, Kafka, Microservices, Domain-Driven Design, 
+                            REST API development, Monitoring with Grafana, CQS pattern, NoSQL Cassandra DB, Unit testing.
+                        </li>
+                    </ul>
+
+                    <p class="h5 mb-0">Student Software Engineer</p>
+                    <p class="mb-0">Premium Minds - 2019</p>
+                    <ul>
+                        <li>
+                            My first job while I was doing my BSc., I joined the team developing a web platform for a Portuguese energy audit company. 
+                            Implemented and automated multiple business flows and translated other business procedures into code, with a focus on 
+                            open-source technologies.
+                        </li>
+                        <li>
+                            <strong>Main skills:</strong> Java, Jooby web-framework, PostgresSQL, RabbitMQ.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <p class="h3">Education</p>
+                    <p class="h5 mb-0">Master of Science in Computer Science</p>
+                    <p class="mb-0">University of Copenhagen - 2021 to 2023</p>
+                    <ul>
+                        <li>
+                            Attended three semesters, registration is paused and will come back in the future :)
+                        </li>
+                        <li>
+                            Worked on multiple projects like a wearable device to detect anxiety on young adults, online spaces and behaviors of the 
+                            LGBTQ+ community, ethical challenges and trade-offs in tech startups development, and a master thesis about interaction 
+                            strategies between humans and non-humanoid robots.
+                        </li>
+                        <li>
+                            <strong>Highlighted courses:</strong> Software Engineering and Architecture, Mobile Computing, Big Data Systems
+                        </li>
+                    </ul>
+
+                    <p class="h5 mb-0">Bachelor of Science in Computer Science</p>
+                    <p class="mb-0">University of Lisbon - 2016 to 2021</p>
+                    <ul>
+                        <li>
+                            The degree englobed multiple areas of software and computer science and was my first real contact with programming, and 
+                            where I gained an interest in and started specializing on software engineering, distributed systems and user experience 
+                            and usability.
+                        </li>
+                        <li>
+                            <strong>Highlighted courses: </strong> Distributed Systems, Construction of Software Systems, Information Systems 
+                            Analysis and Design, Human Computer Interaction
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="row resume text-center my-3">
                 <div class="col">
-                    <a href="documents/Jorge-Andre-resume.pdf" target="_blank" rel="noopener noreferrer"
-                        class="resume"><i alt="Jorge Andre's resume"
-                            class="fas fa-file-alt fa-5x btn btn-secondary rounded-circle"></i><br>
-                        <p id="click" class="text-dark">Click me!</p>
+                    <a href="documents/JorgeAndre-CV-website.pdf" target="_blank" rel="noopener noreferrer" class="resume btn btn-dark">
+                        Click here for my full resume <i class="bi bi-box-arrow-up-right"></i>
                     </a>
                 </div>
             </div>
         </div>
 
-        <hr class="my-4">
+        <hr class="my-5">
 
         <div id="contact">
             <div class="row contact-title text-center">
                 <div class="col">
-                    <p class="h2 display-4">Contact me!</p>
+                    <p class="h2 display-4 mb-4">Contact me!</p>
                 </div>
             </div>
             <div class="row contact padding my-3 align-items-center justify-content-center">
 
                 <!--Body-->
-                <form action="https://formspree.io/jorge.matosandre@gmail.com" class="col-md-6 col-10" method="POST">
+                <form action="https://formspree.io/f/xoqgdwza" class="col-md-6 col-10" method="POST">
                     <div class="form-group">
                         <label>Your name</label>
                         <div class="input-group">
@@ -151,8 +230,8 @@
                     <input type="hidden" name="_subject" value="jorgeandre.com contact">
                     <input type="text" name="_gotcha" style="display:none" />
 
-                    <div class="text-center">
-                        <input class="btn btn-primary btn-block rounded-0 py-2" type="submit" value="Send">
+                    <div class="text-center my-2">
+                        <input class="btn btn-dark" type="submit" value="Send">
                     </div>
                 </form>
             </div>
